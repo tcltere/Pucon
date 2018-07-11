@@ -1,0 +1,129 @@
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+
+
+body {
+  color: #5a5a5a;
+  font-size: 14px;
+}
+ .colors{
+ background-color: rgba(186, 232, 2, 0.7);
+ 
+ }
+ 
+ .texto{
+     color: darkslateblue;
+ }
+ .texto:hover{
+     color:#FFF;
+ }
+.title-arch {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.project {
+width: 100%;
+height: 300px;
+background-image: url(../img/enjoypuconok.jpg);
+background-size: cover;
+background-position: center;
+padding: 0 !important;
+float:left;
+
+
+}
+
+.project-2 {
+background-image: url(../img/cabañas.jpg);
+}
+
+.project-3 {
+background-image: url(../img/hostales.jpeg);
+}
+
+
+.project-hover {
+width: 100%;
+height: 100%;
+color: #fff;
+opacity: 0;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+background-color: rgba(186, 232, 2, 0.7);
+padding: 30% 30px !important;
+
+}
+
+.project-hover hr {
+height: 20px;
+width: 0;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+background-color: rgba(255, 255, 255, 1);
+border: 0;
+}
+
+.project-hover a {
+color: rgba(255, 255, 255, 1);
+padding: 2px 22px;
+line-height: 40px;
+border: 2px solid rgba(255, 255, 255, 1);
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+
+.project-hover a:hover {
+border-color: rgba(51, 51, 51, 1);
+color: rgba(51, 51, 51, 1);
+background-color: #FFF;
+}
+
+.project:hover .project-hover {
+opacity: 1;
+}
+
+
+.project:hover .project-hover hr {
+width: 100%;
+height: 5px;
+}
+
+h2{
+    color: darkslateblue;
+    text-align: center;
+}
+.fondo{
+    width: 100%;
+    height: 160px;
+    background-image: url(../img/footervolcan-01.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0 !important;
+    float: left;
+   
+}
+.futer{
+    color: gray;
+}
+.text {
+    color: #FFF;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 500;
+    text-shadow: -4px 3px 0 #34d16e, -14px 7px 0 #0a0e27;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .sombra{
+  text-shadow: #666 2px 2px 0px;
+}
+.bajar{
+  margin-top: 20px;
+}
