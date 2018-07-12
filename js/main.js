@@ -1,5 +1,5 @@
 
-  
+     
   $(window).load(function() {
       var boxheight = $('#myCarousel .carousel-inner').innerHeight();
       var itemlength = $('#myCarousel .item').length;
@@ -42,3 +42,6 @@
     $(this).addClass("active");
     
     });
+
+    //twiter
+    
